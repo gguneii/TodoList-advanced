@@ -1,4 +1,4 @@
-function stats({arr}) {
+function Stats({arr}) {
   if (!arr.length) {
     return(
       <p className={"stats"}>
@@ -21,4 +21,4 @@ function stats({arr}) {
   )
 
 }
-export default stats
+export default Stats
